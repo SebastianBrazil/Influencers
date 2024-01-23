@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Kotta;
+    src: url(../assets/fonts/KottaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Marg;
+    src: url(../assets/fonts/Margarine-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nerko;
+    src: url(../assets/fonts/NerkoOne-Regular.ttf);
+}
+
+body{
+    background-image: url(../assets/796dbcf7c0c98169fe762cf509aeea90.png);
+    background-size: cover;
+}
+
+.bgColor{
+    background-color: #6C3779;
+}
+
+.bgColorButPink{
+    background: rgb(255 222 222 / 60%);
+}
+
+.purpleColor{
+    color: #6C3779;
+}
+
+.pinkColor{
+    color: #FFDEDE;
+}
+
+.flipImage{
+    transform: scaleX(-1);
+    border-radius: 30px;
+}
+
+.customMargin{
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+.kotta{
+    font-family: Kotta;
+}
+
+.marg{
+    font-family: Marg;
+}
+
+.nerko{
+    font-family: Nerko;
+}
