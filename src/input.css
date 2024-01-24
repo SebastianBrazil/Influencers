@@ -30,8 +30,11 @@
 }
 
 body{
+    /* Background Image */
     background-image: url(../assets/796dbcf7c0c98169fe762cf509aeea90.png);
     background-size: cover;
+    background-position: top;
+    background-color: #FFDEDE;
 }
 
 .bgColor{
@@ -52,22 +55,4 @@ body{
 .pinkColor{
     /* Custom Color */
     color: #FFDEDE;
-}
-
-.flipImage{
-    /* Flips image */
-    transform: scaleX(-1);
-}
-
-.borderRound{
-    /* Adds rounded corners to image */
-    border-radius: 30px; 
-}
-
-@media (min-width: 1024px) {
-    .lg\:customMargin {
-        /* Tailwind Didn't Have This Large Of A Size Please Don't Hurt Me */
-        margin-left: 26rem; 
-        margin-right: 26rem;
-    }
 }
