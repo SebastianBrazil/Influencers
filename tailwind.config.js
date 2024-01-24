@@ -3,9 +3,8 @@ module.exports = {
   content: [
     "./src/**/*.{html,js}",
     "./node_modules/flowbite/**/*.js",
-
-    //root index files add this
-    "./*.{html,js}"],
+    "./*.{html,js}",
+    "./pages/**/*.html"],
   theme: {
     extend: {},
   },

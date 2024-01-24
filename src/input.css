@@ -17,37 +17,6 @@
     src: url(../assets/fonts/NerkoOne-Regular.ttf);
 }
 
-body{
-    background-image: url(../assets/796dbcf7c0c98169fe762cf509aeea90.png);
-    background-size: cover;
-}
-
-.bgColor{
-    background-color: #6C3779;
-}
-
-.bgColorButPink{
-    background: rgb(255 222 222 / 60%);
-}
-
-.purpleColor{
-    color: #6C3779;
-}
-
-.pinkColor{
-    color: #FFDEDE;
-}
-
-.flipImage{
-    transform: scaleX(-1);
-    border-radius: 30px;
-}
-
-.customMargin{
-    margin-left: 30rem;
-    margin-right: 30rem;
-}
-
 .kotta{
     font-family: Kotta;
 }
@@ -58,4 +27,47 @@ body{
 
 .nerko{
     font-family: Nerko;
+}
+
+body{
+    background-image: url(../assets/796dbcf7c0c98169fe762cf509aeea90.png);
+    background-size: cover;
+}
+
+.bgColor{
+    /* Custom Color */
+    background-color: #6C3779;
+}
+
+.bgColorButPink{
+    /* Custom Color */
+    background: rgb(255 222 222 / 60%);
+}
+
+.purpleColor{
+    /* Custom Color */
+    color: #6C3779;
+}
+
+.pinkColor{
+    /* Custom Color */
+    color: #FFDEDE;
+}
+
+.flipImage{
+    /* Flips image */
+    transform: scaleX(-1);
+}
+
+.borderRound{
+    /* Adds rounded corners to image */
+    border-radius: 30px; 
+}
+
+@media (min-width: 1024px) {
+    .lg\:customMargin {
+        /* Tailwind Didn't Have This Large Of A Size Please Don't Hurt Me */
+        margin-left: 26rem; 
+        margin-right: 26rem;
+    }
 }
