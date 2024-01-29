@@ -31,7 +31,7 @@
 
 body{
     /* Background Image */
-    background-image: url(../assets/796dbcf7c0c98169fe762cf509aeea90.png);
+    background-image: url(../assets/hallokitty.png);
     background-size: cover;
     background-position: top;
     background-color: #FFDEDE;
@@ -44,8 +44,8 @@ body{
 
 .bgColorButPink{
     /* Custom Color */
-    background: rgb(255 222 222 / 60%);
-}
+    background: rgb(255 222 222 / 75%);
+}  
 
 .purpleColor{
     /* Custom Color */
